@@ -9,8 +9,8 @@
 [5] Items Are Unique
 """
 
-MySetOne={'Ahmed', 'AbdelMalik','One',True}
-#print(MySetOne[0]) #Error
+# MySetOne={'Ahmed', 'AbdelMalik','One',True}
+# print(MySetOne)
 
 # MyListOne=['Ahmed', 'AbdelMalik','One',True]
 # print(MyListOne[1:3])
@@ -28,9 +28,9 @@ MySetOne={'Ahmed', 'AbdelMalik','One',True}
 
 """Items Are Unique """
 
-MySetFive={1,2,3,"AbdelMalik","One","AbdelMalik",1,"Ahmed",2,"One",True}
+MySetFive={True,1,2,3,"AbdelMalik","One","AbdelMalik",1,"Ahmed",2,"One"}
 print(MySetFive)    # 1,2,3,AbdelMalik,One,Ahmed, True
-
+#
 MyListFive=[1,2,3,"AbdelMalik","One","AbdelMalik",1,"Ahmed",2,"One",True]
 print(MyListFive)
 

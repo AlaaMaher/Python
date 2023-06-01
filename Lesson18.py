@@ -7,7 +7,7 @@
 """
 ----------------------
 --- Boolean Operators ---
-and &&
+and && 
 or ||
 not ^|
 ----------------------
@@ -15,8 +15,8 @@ not ^|
 age=30
 country="Egypt"
 rate=10
-print(age>16 and country=="USA" and rate==10) #True
-print(age>16 or country=="USA" or rate==10) #True
+print(age>16 and country=="Egypt" and rate==10)
+print(age>16 or country=="USA" or rate==10)
 print(not age>16) #Not True = False
 
 print("*"*60)
@@ -48,9 +48,9 @@ print("*"*50)
 x=10
 y=20
 z= x+y
+x+=y
 
-x*=y
-print(x)
+print(z)
 
 print("*"*50)
 """
@@ -65,5 +65,5 @@ print("*"*50)
 ----------------------
 """
 
-print(country!="USA") #False
+print(country != "USA") #False
 print(num1>=num2)
